@@ -1,0 +1,44 @@
+{
+    "build": {
+      "development": {
+        "channel":"development",
+        "developmentClient": true,
+        "distribution": "internal"
+      },
+      "development-simulator": {
+        "developmentClient": true,
+        "distribution": "internal",
+        "ios": {
+          "simulator": true
+        }
+      },
+      "preview": {
+        "channel":"preview",
+        "android": {
+          "buildType": "apk"
+        },
+        "ios":{
+          "simulator": true
+        },
+        "distribution": "internal"
+      },
+      "production": {
+        "channel":"production",
+        "android": {
+          "buildType": "app-bundle"
+        }
+      }
+    },
+    "submit": {
+      "production": {
+        "android": {
+          "serviceAccountKeyPath": "../serviceaccount.json",
+          "track": "internal"
+        }
+      }
+    },
+    "cli": {
+      "version": ">= 0.50.0",
+      "requireCommit": true
+    }
+}

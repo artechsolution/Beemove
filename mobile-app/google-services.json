@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "318400651323",
+    "firebase_url": "https://beemovephil-81328-default-rtdb.firebaseio.com",
+    "project_id": "beemovephil-81328",
+    "storage_bucket": "beemovephil-81328.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318400651323:android:084abad1a75082dddffc1e",
+        "android_client_info": {
+          "package_name": "com.beemove.ph"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318400651323-omrs3q6o4d6pcebcdemi9hag9olhd4kd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXqEcXf-_VlwBj1WLAjnk98REm__c-H_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318400651323-omrs3q6o4d6pcebcdemi9hag9olhd4kd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318400651323-1gt395ka4ucri6ush6mrok19oj60kdp1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.beemove.ph"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
